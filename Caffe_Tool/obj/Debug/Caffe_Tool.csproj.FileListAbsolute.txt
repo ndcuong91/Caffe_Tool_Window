@@ -1,0 +1,18 @@
+E:\2. Projects\Caffe_Tool\Caffe_Tool\bin\Debug\Caffe_Tool.exe.config
+E:\2. Projects\Caffe_Tool\Caffe_Tool\bin\Debug\Caffe_Tool.exe
+E:\2. Projects\Caffe_Tool\Caffe_Tool\bin\Debug\Caffe_Tool.pdb
+E:\2. Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.csprojResolveAssemblyReference.cache
+E:\2. Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.CaffeTool.resources
+E:\2. Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.Properties.Resources.resources
+E:\2. Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.csproj.GenerateResource.Cache
+E:\2. Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.exe
+E:\2. Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.pdb
+E:\2.Projects\Caffe_Tool\Caffe_Tool\bin\Debug\Caffe_Tool.exe.config
+E:\2.Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.exe
+E:\2.Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.pdb
+E:\2.Projects\Caffe_Tool\Caffe_Tool\bin\Debug\Caffe_Tool.exe
+E:\2.Projects\Caffe_Tool\Caffe_Tool\bin\Debug\Caffe_Tool.pdb
+E:\2.Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.csprojResolveAssemblyReference.cache
+E:\2.Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.CaffeTool.resources
+E:\2.Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.Properties.Resources.resources
+E:\2.Projects\Caffe_Tool\Caffe_Tool\obj\Debug\Caffe_Tool.csproj.GenerateResource.Cache

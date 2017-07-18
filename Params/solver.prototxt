@@ -1,4 +1,4 @@
-net: "params/caffe/train_val.prototxt"
+net: "E:\2.Projects\Caffe_Tool\Params\train_val.prototxt"
 test_iter: 15
 test_interval: 15
 display: 100

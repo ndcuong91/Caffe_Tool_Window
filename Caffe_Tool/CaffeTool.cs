@@ -22,9 +22,9 @@ namespace Caffe_Tool
             //Init all textbox value
             tbDataFolder.Text = @"E:\2.Projects\15.DeepLearning\1.Images\data_test";
             tbToolFolder.Text = @"E:\2.Projects\15.DeepLearning\2.Codes\Caffe\caffe-windows_cudnn5\Build\x64\Debug";
-            tbTrainVal.Text = "";
-            tbSolver.Text = "";
-            tbDeploy.Text = "";
+            tbTrainVal.Text = @"E:\2.Projects\15.DeepLearning\1.Images\data_test\train_val.prototxt";
+            tbSolver.Text = @"E:\2.Projects\15.DeepLearning\1.Images\data_test\solver.prototxt";
+            tbDeploy.Text = @"E:\2.Projects\15.DeepLearning\1.Images\data_test\deploy.prototxt";
             tbSynset.Text = "";
         }
 
@@ -145,19 +145,36 @@ namespace Caffe_Tool
                 script = script + sValRoot + sValText + sValLMBD;
                 file.WriteLine(script);
             }
-           
+
             //Run .BAT SCRIPT
             //system( path);
         }
 
         private void buttonMakeMeanImage_Click(object sender, EventArgs e)
         {
+            /*Create mean image*/
+            string sMean = m_sToolFolder + "\\compute_image_mean.exe";
 
+            string sTrainLMBD = m_sDataFolder + "\\train_lmdb";
+
+            string script = "START /b \"\" \"" + sMean + "\" " + sTrainLMBD + " " + m_sDataFolder + "\\mean.binaryproto";
+
+            using (StreamWriter file = new StreamWriter(m_sDataFolder + "\\make_mean_image.bat"))  //write
+            {
+                file.WriteLine(script);
+            }
+
+            //system((LPCSTR)path);
         }
 
         private void buttonTrain_Click(object sender, EventArgs e)
         {
-
+            string m_sCaffe = m_sToolFolder + "\\caffe.exe";
+            string script = "START /b \"\" \"" + m_sCaffe + "\" train -solver=" + m_sSolver;
+            using (StreamWriter file = new StreamWriter(m_sDataFolder + "\\train.bat"))  //write
+            {
+                file.WriteLine(script);
+            }
         }
 
         private void buttonTest_Click(object sender, EventArgs e)
@@ -203,6 +220,11 @@ namespace Caffe_Tool
         private void tbToolFolder_TextChanged(object sender, EventArgs e)
         {
             m_sToolFolder = tbToolFolder.Text;
+        }
+
+        private void tbSolver_TextChanged(object sender, EventArgs e)
+        {
+            m_sSolver = tbSolver.Text;
         }
     }
 }

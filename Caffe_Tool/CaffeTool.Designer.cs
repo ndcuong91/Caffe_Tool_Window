@@ -158,6 +158,7 @@
             this.tbSolver.Name = "tbSolver";
             this.tbSolver.Size = new System.Drawing.Size(331, 21);
             this.tbSolver.TabIndex = 10;
+            this.tbSolver.TextChanged += new System.EventHandler(this.tbSolver_TextChanged);
             // 
             // buttonSolverConfig
             // 
